@@ -1,0 +1,262 @@
+@charset "utf-8";
+@import url("../webfonts/Cinzel_Black/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url("../webfonts/RobotoCondensed_Bold/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap');
+
+
+
+/* CSS Document */
+
+header {
+    background-color: #113245;
+    height: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #E7E6E0;
+    text-align: center;
+}
+* {
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+#form1 label {
+    font-weight: bold;
+    font-size: 14px;
+    /* [disabled]margin-top: 10px; */
+    /* [disabled]margin-bottom: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input label {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#form1 p label {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#form1 table {
+    margin-left: -5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#form1 #select {
+    margin-left: 15px;
+}
+#form1 p {
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+main section p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 22px;
+    padding-left: 20px;
+}
+main section table {
+    margin-left: 14px;
+}
+
+h1 {
+    text-align: center;
+    width: 1024px;
+    height: 100px;
+    padding: 20px;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+nav {
+    height: 70px;
+    text-align: center;
+    background-color: #03878F;
+}
+nav ul {
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+}
+nav ul li {
+    background-color: #68C6A4;
+    height: 30px;
+    width: 94px;
+    display: inline-block;
+    padding: 5px;
+    list-style-image: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+main {
+    background-color: #ED5958;
+    padding: 50px;
+    height: auto;
+}
+main section {
+    background-color: #F2B531;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #113245;
+}
+footer {
+    height: 100px;
+    background-color: #113245;
+    text-align: center;
+}
+footer h6 {
+    color: #E7E6E0;
+    font-size: 15px;
+    width: 50%;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a{
+    color: #ED5958;
+  }
+ a:visited{
+    color: #113245;
+  }
+ a:hover{
+    color: #ED5958;
+    background-color:#E7E6E0;
+}
+ a:link{
+    color: #113245;
+  }
+ a:active{
+    color: #E4A5A4;
+  }
+.video1 {
+    width: 40%;
+    height: auto;
+}
+input[type=text],input[type=password]{
+	width: 30%;
+	padding: 5px;
+	margin: 8px 0;
+	border: 3px solid #03878F;
+	border-radius: 10px;
+	color: firebrick;
+}
+input[type=submit]{
+	width:10%;
+    padding:5px;
+	border-radius:10px;
+	margin-left: 20px;
+	background-color: cornflowerblue;
+	color: beige;
+	cursor: pointer;
+}
+input[type=submit]:focus{
+	border:1px solid #68C6A4;
+	background-color: aqua;
+}
+input[type=submit]:hover{
+	background-color: coral;
+	color: darkslategray;
+}
+textarea{
+	width: 50%;
+	height: 100px;
+	padding: 12px 20px;
+	color: deeppink;
+	border-solidius: 10px;
+	border: 1px solid #113245;
+	resize: none;
+}
+select{
+	width: 30%;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 10px;
+	background-color: chocolate;
+}
+input[type=tel]{
+	background-color:mediumorchid;
+}
+input[type=email]{
+	background-color:darkolivegreen;
+}.fuente_t2 {
+    font-family: fondamento;
+    font-style: italic;
+    font-weight: 400;
+}
+.funte_t2_2 {
+    font-family: dhyana;
+    font-style: normal;
+    font-weight: 400;
+}
+.parrafo_1 {
+}
+.fuente_t22 {
+    font-family: "Cinzel Black";
+}
+.fuente_repositorio{
+font-family: 'Raleway', sans-serif;
+}
+.parrafo_repositorio {
+font-family: 'Space Mono', monospace;
+}
+.fuente_importado {
+	font-family: 'Xanh Mono', monospace;
+}
+.parrafo_importado {
+	font-family: 'Baloo 2', cursive;
+}
+.parrafo_11 {
+    font-family: "RobotoCondensed Bold";
+}
+.fuente_principal {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    color: #F2B531;
+    text-shadow: 2px 3px #E7E6E0;
+}
+.animate__delay-2s {
+}
+.animated__slower {
+}
+.animate__fast {
+}
+.animate__delay-3s {
+}
+.animate__slower {
+}
+.animate__repeat-3 {
+}
+.animated__infinite {
+}
+.titulo_mio {
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    font-size: 32px;
+}
+.parrafo_mio {
+	font-family: 'Mali', cursive;
+}
+main section img {
+    height: auto;
+    width: 500px;
+    text-align: center;
+    /* [disabled]margin-left: 208px; */
+
+}
+.animate__delay-10s {
+}
