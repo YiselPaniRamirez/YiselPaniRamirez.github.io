@@ -13,6 +13,7 @@ header {
     margin: 0 auto;
     padding: 0 auto;
     box-sizing: border-box;
+    height: auto;
 }
 header, nav, main, footer {
     height: 100%;
