@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    background-color: #113245;
+    height: 150px;
+    text-align: center;
+    padding-top: 25px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    height: auto;
+}
+header, nav, main, footer {
+    height: 100%;
+}
+
+
+h1 {
+    width: 1024px;
+    height: 100px;
+    color: #E7E6E0;
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 36px;
+}
+nav {
+    background-color: #03878F;
+    height: 70px;
+    text-align: center;
+}
+nav ul {
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+}
+nav ul li {
+    background-color: #68C6A4;
+    height: 30px;
+    width: 94px;
+    margin-left: 5px;
+    padding: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    list-style-image: none;
+    font-size: 10px;
+}
+main {
+    background-color: #ED5958;
+    padding: 50px;
+    height: auto;
+}
+main section {
+    background-color: #F2B531;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: #113245;
+}
+footer {
+    background-color: #113245;
+    height: 100px;
+}
+footer h6 {
+    text-align: center;
+    font-size: 15px;
+    color: #E7E6E0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+a{
+    color: #ED5958;
+  }
+ a:visited{
+    color: #113245;
+  }
+ a:hover{
+    color: #ED5958;
+    background-color:#E7E6E0;
+}
+ a:link{
+    color: #03878F;
+  }
+ a:active{
+    color: #E4A5A4;
+  }

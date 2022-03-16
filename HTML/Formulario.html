@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../CSS/Estilo audio.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<h1>Formularios HTML</h1>
+	</header>
+<nav>
+  <ul>
+	<li><a href="../index.html">Inicio</a></li>
+	<li><a href="Audio.html">Audio</a></li>
+	<li><a href="Enlaces.html">Enlaces</a></li>
+    <li><a href="Estilos de texto.html">Estilo de texto</a></li>
+	<li><a href="Fuentes en HTML.html">Fuentes en HTML</a></li>
+	<li><a href="Imagenes.html">Imagenes</a></li>
+    <li><a href="Listas.html">Listas</a></li>
+    <li><a href="Tablas.html">Tablas</a></li>
+	<li><a href="Tabla con rayas.html">Tabla con rayas</a></li>
+	<li><a href="Video.html">Video</a></li>
+  </ul> 
+</nav>
+<main>
+	<section>
+	<h2>Formulario de ingreso autentificación&nbsp;</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	 <form action="Procesamiento.html" method="get">
+	  <label>Usuario</label>	
+	  <input type="text" id="usuario" name="usuario">
+	  <label>Contrasena</label>
+	  <input type="password" id="contraseña" name="contraseña">
+	  <input type="submit" value="Enviar">
+	 </form>
+	</section>
+	<section>
+	<h2>Formulario encuesta&nbsp;</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <form action="Procesamiento.html" method="get" id="form1" name="form1" method="post">
+<h3>Encuesta&nbsp;</h3>
+      <label>De que país nos visitas&nbsp;</label>
+		<select name="select" id="select">
+		  
+        <option value="mexico">México</option>
+        <option value="españa">España</option>
+        <option value="argentina">Argentina</option>
+        <option value="chile">Chile</option>
+        <option value="italia">Italia</option>
+      </select>
+		<br>
+      <label>Edad&nbsp;</label>
+<input name="number" type="number" id="number" max="50" min="18">
+<p>
+  <label>Género&nbsp;</label>
+	<br>
+	<label>
+    <input type="radio" name="G&eacute;nero" value="femenino" id="Geacutenero_0">
+    Femenino</label>
+  <br>
+  <label>
+    <input type="radio" name="G&eacute;nero" value="masculino" id="Geacutenero_1">
+    Masculino</label>
+  <br>
+</p>
+	<label>Música&nbsp;</label>
+<table width="200">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="rock" id="Muacutesica_0">
+      Rock</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="jazz" id="Muacutesica_1">
+      Jazz</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="pop" id="Muacutesica_2">
+      Pop</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="blues" id="Muacutesica_3">
+      Blues</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="salsa" id="Muacutesica_4">
+      Salsa</label></td>
+  </tr>
+  <tr>
+    <td><label>
+      <input type="checkbox" name="Música" value="rap" id="Muacutesica_5">
+      Rap</label></td>
+  </tr>
+</table>
+<br>
+<input name="submit" type="submit" id="submit" formmethod="GET" value="Enviar">
+      
+    </form>
+	</section>
+	<section>
+	<h2>Formulario de comentarios</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <form action="Procesamiento.html"  id="form2" name="form2" method="get">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+	  <br>
+      <label for="textarea">Comentario&nbsp;</label>
+      <textarea name="textarea" cols="20" rows="5" maxlength="50" id="textarea">Escribe un comentario</textarea>
+      <br>
+		<br>
+		<input type="submit" name="submit2" id="submit2" value="Enviar">
+    </form>
+    
+	</section>
+	<section>
+	<h2>Formulario diez preguntas</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <form action="Procesamiento.html"  id="form3" name="form3" method="post">
+     <label>¿Cuál es tu fecha de nacimiento?&nbsp;</label>
+		<br>
+		<label for="date">Date:</label>
+      <input type="date" name="date" id="date">
+  
+	<br>
+	<label>¿Qué estas estudiando?&nbsp;</label>
+    <table width="200">
+      <tr>
+        <td><label>
+          <input type="radio" name="RadioGroup1" value="universidad" id="RadioGroup1_0">
+          Universidad</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="radio" name="RadioGroup1" value="preparatoria" id="RadioGroup1_1">
+          Preparatoria</label></td>
+      </tr>
+      <tr>
+        <td><label>
+          <input type="radio" name="RadioGroup1" value="secundaria" id="RadioGroup1_2">
+          Secundaria</label></td>
+      </tr>
+    </table>
+		<br>
+    <label>¿A que hora tienes tu primera clase? &nbsp;</label>
+		<br>
+    <label for="time">Time:</label>
+    <input type="time" name="time" id="time">
+    
+    <p>
+		<label>¿Qué medio de transporte usas?&nbsp;</label>
+		<br>
+      <label>
+        <input type="checkbox" name="coche" value="camion" id="coche_0">
+        Camión</label>
+      <br>
+      <label>
+        <input type="checkbox" name="coche" value="automovil" id="coche_1">
+        Automóvil</label>
+      <br>
+      <label>
+        <input type="checkbox" name="coche" value="bicicleta" id="coche_2">
+        Bicicleta</label>
+      <br>
+      <label>
+        <input type="checkbox" name="coche" value="a pie" id="coche_3">
+        A pie</label>
+      <br>
+    </p>
+		<label>¿Qué tan seguido lo usas?&nbsp;</label>
+		<br>
+    <label for="range">Range:</label>
+<input type="range" name="range" id="range">
+		<br>
+		<br>
+    
+    <label>¿Cuantos días a la semana asistes a la escuela?&nbsp;</label>
+		<br>
+    <label for="number2">Días:</label>
+    <input type="number" name="number2" id="number2">
+    <br>
+		<br>
+    <label>¿Cuál es tu color favorito?&nbsp;</label>
+		<br>
+    <label for="color">Color:</label>
+    <input type="color" name="color" id="color">
+		<br>
+		<br>
+    <label>¿Qué redes sociales utilizas?&nbsp;</label>
+		<br>
+    <label for="textfield">Redes sociales:</label>
+    <input type="text" name="textfield" id="textfield">
+    <br>
+		<br>
+		<label>¿Cuál es tu número telefónico?&nbsp;</label>
+		<br>
+    <label for="tel">Tel:</label>
+<input type="tel" name="tel" id="tel">
+		<br>
+		<br>
+		<label>¿Cuál es tu dirección de e-mail?&nbsp;</label>
+		<br>
+<label for="email2">Email:</label>
+<input type="email" name="email2" id="email2">
+		<br>
+<br>	
+<input name="submit3" type="submit" id="submit3" formmethod="GET" value="Enviar">
+	  </form>
+  </section>
+	</main>
+	<footer>
+<h6>Elaborador por Yiselle Pani Ramírez</h6></footer>
+</body>
+</html>
